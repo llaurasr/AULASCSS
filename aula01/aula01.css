@@ -1,0 +1,72 @@
+* {
+    padding: 0%;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(222, 195, 176);
+    color: #6d4d30;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: large;
+    padding: 15px;
+}
+
+nav {
+    background-color: rgb(185, 217, 228);
+    display: flex;
+    padding: 15px;
+    border-radius: 75px;
+}
+
+nav img {
+    width: 12%;
+
+}
+
+nav p {
+    background-color: rgb(153, 198, 214);
+    color: #4e2f15;
+    margin-left: 50px;
+    margin-right: 50px
+}
+
+nav button {
+    background-color: rgb(153, 198, 214);
+    border-bottom: #4e2f15;
+    margin-left: 15px;
+    margin-right: 20px;
+    border: solid 5px rgb(217, 252, 217);
+    height: 2cm;
+    border-radius: 20px;
+    width: 5%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    background-color: rgb(134, 175, 190);
+    text-decoration: none;
+}
+
+main {
+    background-color: rgb(217, 252, 217);
+    padding: 2rem;
+    border-radius: 80px;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+main section p {
+    background-color: rgb(201, 248, 201);
+    line-height: 160%;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+form {
+    margin: 0 auto;
+    background-color: rgb(188, 218, 230);
+    border-radius: 5px;
+    display: flex;
+}
