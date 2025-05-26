@@ -1,0 +1,13 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./imagens/tuetetowiu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body h1{
+    color: #fff;
+}

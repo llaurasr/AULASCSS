@@ -1,0 +1,17 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.quadrado{
+   height: 150px;
+   width: 150px;
+   background-color: rgb(158, 199, 223);
+}
+.quadrado__rosa{
+    background-color: pink;
+}
+.quadrado__azul{
+    background-color: blue;
+}
