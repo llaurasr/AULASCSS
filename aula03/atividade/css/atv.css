@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+* {
+    margin: 0cm;
+    padding: 0cm;
+    box-sizing: border-box;
+}
+
+.retangulo {
+    height: 600px;
+    width: 1000px;
+    background-color: rgb(247, 218, 176);
+}
+
+#foto{
+    width: 300px;
+    height: 600px;
+    display: flex;
+    float: left;
+}
+#conteudo{
+    width: 70%;
+    height: 100%;
+   color: black; 
+   float: right;
+   text-align: center;
+}

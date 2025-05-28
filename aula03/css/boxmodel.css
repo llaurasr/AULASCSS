@@ -2,16 +2,26 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .quadrado{
-   height: 150px;
-   width: 150px;
-   background-color: rgb(158, 199, 223);
+   height: 300px;
+   width: 300px;
+
 }
 .quadrado__rosa{
     background-color: pink;
 }
 .quadrado__azul{
-    background-color: blue;
+    background-color: rgb(164, 203, 255);
+    border: 10px solid black;
+}
+#cachorro{
+    background-color: rgb(126, 81, 55);
+    font-family: "Montserrat Alternates", sans-serif;
+    border: rgb(221, 255, 221);
+    padding: 20px;
+    height: 50px;
+    color: aliceblue;
 }
