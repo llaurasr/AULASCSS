@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    background-color: rgb(163, 163, 163);
+    display: flex;
+    /* flex-wrap determina se o container flexível escolherá seus elementos, também é possível determinar de que maneira isso ocorre ou não*/
+    gap: 10px;
+    /* gap é um espaço que só existe entre itens de um mesmo bloco/contexto*/
+    justify-content: center;
+    /* content se usa pra quando ocorre o wrap ou temos mais de uma linha ou coluna. Ja os items, utilizamos quando nao ocorre wrap ou temos apenas uma linha  */
+}
+
+#quadrado1 {
+    background-color: rgb(243, 223, 136);
+    width: 250px;
+    height: 250px;
+    border: 10px solid rgb(87, 84, 84);
+    border-radius: 10px;
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(87, 84, 84);
+    flex-basis: 300px;
+    /* flex-basis determina o tamanho minimo inicial dos elementos flexiveis*/
+}
+
+#quadrado2 {
+    background-color: rgb(220, 243, 177);
+    width: 250px;
+    height: 250px;
+    border: 10px solid rgb(87, 84, 84);
+    border-radius: 10px;
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(87, 84, 84);
+}
+
+#quadrado3 {
+    background-color: rgb(202, 197, 247);
+    width: 250px;
+    height: 250px;
+    border: 10px solid rgb(87, 84, 84);
+    border-radius: 10px;
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(87, 84, 84);
+}
+
+#quadrado4 {
+    background-color: rgb(255, 188, 219);
+    width: 250px;
+    height: 250px;
+    border: 10px solid rgb(87, 84, 84);
+    border-radius: 10px;
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(87, 84, 84);
+    flex-grow: 3;
+    /* flex-grow determiona o espaço ocupado por determinado item. o tamanho padrao do flex-grow é 0, mas se vc declara um flex-grow de 2, esse elemento ocupará o dobro do espaço flexivel*/
+    flex-shrink: 2;
+    /* flex-shrink determina o quão fácil um elemento encolhe.qnt maior o numero mais rapido e agressivo o encolhimento desse elemento */
+    
+}
+
+#quadrado5 {
+    background-color: rgb(253, 120, 120);
+    width: 250px;
+    height: 250px;
+    border: 10px solid rgb(87, 84, 84);
+    border-radius: 10px;
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(87, 84, 84);
+}
+
+#quadrado6 {
+    background-color: rgb(160, 220, 255);
+    width: 250px;
+    height: 250px;
+    border: 10px solid rgb(87, 84, 84);
+    border-radius: 10px;
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(87, 84, 84);
+    flex: 1 2 300px;
+    /* apenas flex abrevia os outros 3 elementos em um só primeiro valor é responsavel pelo  grow
+    segundo valor é responsavel pelo shrink
+    o terceiro valor é responsavel pelo basis */ 
+}
