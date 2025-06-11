@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: rgb(233, 222, 218);
+    display: grid;
+    /* display-grid transforma seu elemento em um quadriculado */
+    grid-template-columns: repeat(8, 100px);
+    /*grid-template-columns recebe a quantidade e tamanho de suas colunas */
+    grid-template-rows: repeat(8, 100px);
+    /*grid-template-rows recebe a quantidade e tamanho de suas linhas */
+    grid-template-areas:
+        " verde verde verde verde verde verde verde verde"
+        " verde verde verde verde verde verde verde verde"
+        "verde1 preto preto verde2 verde2 preto1 preto1 verde3"
+        "verde4 preto2 preto2 verde5 verde5 preto3 preto3 verde6"
+        "verde7 verde7 verde7 preto4 preto4 verde8 verde8 verde8"
+        "verde9 verde9 preto5 preto5 preto5 preto5 verde10 verde10"
+        "verde11 verde11 preto6 preto6 preto6 preto6 verde12 verde12"
+        "verde13 verde13 preto7 verde14 verde14 preto8 verde15 verde15";
+}
+
+.verde {
+    background-color: green;
+    grid-area: verde;
+}
+
+.verde1 {
+    background-color: green;
+    grid-area: verde1;
+}
+
+.verde2 {
+    background-color: green;
+    grid-area: verde2;
+}
+
+.verde3 {
+    background-color: green;
+    grid-area: verde3;
+}
+
+.verde4 {
+    background-color: green;
+    grid-area: verde4;
+}
+
+.verde5 {
+    background-color: green;
+    grid-area: verde5;
+}
+
+.verde6 {
+    background-color: green;
+    grid-area: verde6;
+}
+
+.verde7 {
+    background-color: green;
+    grid-area: verde7;
+}
+
+.verde8 {
+    background-color: green;
+    grid-area: verde8;
+}
+
+.verde9 {
+    background-color: green;
+    grid-area: verde9;
+}
+
+.verde10 {
+    background-color: green;
+    grid-area: verde10;
+}
+
+.verde11 {
+    background-color: green;
+    grid-area: verde11;
+}
+
+.verde12 {
+    background-color: green;
+    grid-area: verde12;
+}
+
+.verde13 {
+    background-color: green;
+    grid-area: verde13;
+}
+
+.verde14 {
+    background-color: green;
+    grid-area: verde14;
+}
+
+.verde15 {
+    background-color: green;
+    grid-area: verde15;
+}
+
+.preto {
+    background-color: black;
+    grid-area: preto;
+}
+
+.preto1 {
+    background-color: black;
+    grid-area: preto1;
+}
+
+.preto2 {
+    background-color: black;
+    grid-area: preto2;
+}
+
+.preto3 {
+    background-color: black;
+    grid-area: preto3;
+}
+
+.preto4 {
+    background-color: black;
+    grid-area: preto4;
+}
+
+.preto5 {
+    background-color: black;
+    grid-area: preto5;
+}
+
+.preto6 {
+    background-color: black;
+    grid-area: preto6;
+}
+
+.preto7 {
+    background-color: black;
+    grid-area: preto7;
+}
+
+.preto8 {
+    background-color: black;
+    grid-area: preto8;
+}
+
+video.preto9 {
+    background-color: black;
+    grid-area: preto9;
+}
